@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+Copyright (c) 2017 - Société Nationale des Chemins de fer Français
+
+Toute reproduction ou diffusion intégrale ou partielle par quelque procédé que ce soit ne peut être faite sans l'autorisation préalable de la SNCF.
+
+Dernière révision :
+$Revision$
+$Date$
+$Author$
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:indeterminateTint="@android:color/holo_blue_dark"
+        android:indeterminate="true" />
+
+    <TextView
+        android:id="@+id/textViewProgressBar"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

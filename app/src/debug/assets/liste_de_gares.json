@@ -1,0 +1,1575 @@
+﻿{
+    "nhits": 5032,
+    "parameters": {
+        "dataset": [
+            "liste-des-gares"
+        ],
+        "timezone": "UTC",
+        "rows": 10,
+        "format": "json",
+        "facet": [
+            "fret",
+            "voyageurs",
+            "code_ligne",
+            "departement"
+        ]
+    },
+    "records": [
+        {
+            "datasetid": "liste-des-gares",
+            "recordid": "0e54301e695d3a8f634aee5a5c0af1c4af904990",
+            "fields": {
+                "departement": "Atos j'adore",
+                "commune": "Messac",
+                "y_wgs84": 6077344.81839,
+                "x_wgs84": -202440.382179,
+                "coordonnees_geographiques": [
+                    47.82231315293002,
+                    -1.8185528943432592
+                ],
+                "voyageurs": "O",
+                "rang": 1,
+                "x_lambert_93": 339653.212698,
+                "code_uic": 87471185,
+                "y_lambert_93": 6757878.01689,
+                "libelle_gare": "Messac-d'en",
+                "pk": "398+272",
+                "code_ligne": "463000",
+                "fret": "N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.8185528943432592,
+                    47.82231315293002
+                ]
+            },
+            "record_timestamp": "2017-04-06T09:40:37+00:00"
+        },
+        {
+            "datasetid": "liste-des-gares",
+            "recordid": "52ba3f5c701cd2a86b622c959a7987211d6c149f",
+            "fields": {
+                "departement": "Ille-et-Vilaine",
+                "commune": "Vern-sur-Seiche",
+                "y_wgs84": 6114673.30638,
+                "x_wgs84": -177731.689903,
+                "coordonnees_geographiques": [
+                    48.04697466530045,
+                    -1.5965909351293794
+                ],
+                "voyageurs": "O",
+                "rang": 1,
+                "x_lambert_93": 357685.415106,
+                "code_uic": 87471029,
+                "y_lambert_93": 6781809.97609,
+                "libelle_gare": "Vern",
+                "pk": "50+491",
+                "code_ligne": "466000",
+                "fret": "N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.5965909351293794,
+                    48.04697466530045
+                ]
+            },
+            "record_timestamp": "2017-04-06T09:40:37+00:00"
+        },
+        {
+            "datasetid": "liste-des-gares",
+            "recordid": "d508f1c606042a0a07d66477ae2cf0da6cf9bff4",
+            "fields": {
+                "departement": "Finistère",
+                "commune": "Quimperlé",
+                "y_wgs84": 6085140.14884,
+                "x_wgs84": -395516.920856,
+                "coordonnees_geographiques": [
+                    47.869309994317895,
+                    -3.552988951324052
+                ],
+                "voyageurs": "O",
+                "rang": 1,
+                "x_lambert_93": 210637.786887,
+                "code_uic": 87476317,
+                "y_lambert_93": 6772419.14149,
+                "libelle_gare": "Quimperlé",
+                "pk": "639+694",
+                "code_ligne": "470000",
+                "fret": "O"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.552988951324052,
+                    47.869309994317895
+                ]
+            },
+            "record_timestamp": "2017-04-06T09:40:37+00:00"
+        },
+        {
+            "datasetid": "liste-des-gares",
+            "recordid": "9a6391a7296309a8d7a3209a03df7a8f7913dc13",
+            "fields": {
+                "departement": "Finistère",
+                "commune": "Hanvec",
+                "y_wgs84": 6163846.65533,
+                "x_wgs84": -460348.232204,
+                "coordonnees_geographiques": [
+                    48.341435362707074,
+                    -4.135378530070007
+                ],
+                "voyageurs": "N",
+                "rang": 1,
+                "x_lambert_93": 171994.575187,
+                "code_uic": 87474031,
+                "y_lambert_93": 6828441.66923,
+                "libelle_gare": "Hanvec",
+                "pk": "740+360",
+                "code_ligne": "470000",
+                "fret": "N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.135378530070007,
+                    48.341435362707074
+                ]
+            },
+            "record_timestamp": "2017-04-06T09:40:37+00:00"
+        },
+        {
+            "datasetid": "liste-des-gares",
+            "recordid": "78c1a13c79fff5e07e4badd1d23ec439ded1295e",
+            "fields": {
+                "departement": "Morbihan",
+                "commune": "Questembert",
+                "y_wgs84": 6054309.07004,
+                "x_wgs84": -272690.557184,
+                "coordonnees_geographiques": [
+                    47.68318530351033,
+                    -2.449620953533247
+                ],
+                "voyageurs": "O",
+                "rang": 1,
+                "x_lambert_93": 291464.543625,
+                "code_uic": 87476671,
+                "y_lambert_93": 6745525.10365,
+                "libelle_gare": "Questembert",
+                "pk": "540+326",
+                "code_ligne": "470000",
+                "fret": "O"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.449620953533247,
+                    47.68318530351033
+                ]
+            },
+            "record_timestamp": "2017-04-06T09:40:37+00:00"
+        },
+        {
+            "datasetid": "liste-des-gares",
+            "recordid": "99383d686bda13fd15d8f14d03c0ee54ebd89654",
+            "fields": {
+                "departement": "Morbihan",
+                "commune": "Pluneret",
+                "y_wgs84": 6053535.24772,
+                "x_wgs84": -329570.366408,
+                "coordonnees_geographiques": [
+                    47.67850522988015,
+                    -2.96058097337005
+                ],
+                "voyageurs": "O",
+                "rang": 1,
+                "x_lambert_93": 253190.435395,
+                "code_uic": 87476648,
+                "y_lambert_93": 6747773.9396,
+                "libelle_gare": "Ste-Anne",
+                "pk": "581+996",
+                "code_ligne": "470000",
+                "fret": "N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.96058097337005,
+                    47.67850522988015
+                ]
+            },
+            "record_timestamp": "2017-04-06T09:40:37+00:00"
+        },
+        {
+            "datasetid": "liste-des-gares",
+            "recordid": "0c95fe97a2a1dfeb7628c74625a3635b5052b5a3",
+            "fields": {
+                "departement": "Ille-et-Vilaine",
+                "commune": "St-Méen-le-Grand",
+                "y_wgs84": 6138128.2568,
+                "x_wgs84": -243043.38714,
+                "coordonnees_geographiques": [
+                    48.18763908624799,
+                    -2.1832958937261906
+                ],
+                "voyageurs": "N",
+                "rang": 1,
+                "x_lambert_93": 315077.283386,
+                "code_uic": 87471243,
+                "y_lambert_93": 6800114.00667,
+                "libelle_gare": "St-Méen",
+                "pk": "68+200",
+                "code_ligne": "472000",
+                "fret": "O"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1832958937261906,
+                    48.18763908624799
+                ]
+            },
+            "record_timestamp": "2017-04-06T09:40:37+00:00"
+        },
+        {
+            "datasetid": "liste-des-gares",
+            "recordid": "92d0cce2d51264f2889b390898efd7202307e83e",
+            "fields": {
+                "departement": "Morbihan",
+                "commune": "Auray",
+                "y_wgs84": 6053823.00166,
+                "x_wgs84": -333913.441709,
+                "coordonnees_geographiques": [
+                    47.68024561338101,
+                    -2.99959548260269
+                ],
+                "voyageurs": "O",
+                "rang": 1,
+                "x_lambert_93": 250286.167892,
+                "code_uic": 87476200,
+                "y_lambert_93": 6748188.22577,
+                "libelle_gare": "Auray",
+                "pk": "584+946",
+                "code_ligne": "473000",
+                "fret": "O"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.99959548260269,
+                    47.68024561338101
+                ]
+            },
+            "record_timestamp": "2017-04-06T09:40:37+00:00"
+        },
+        {
+            "datasetid": "liste-des-gares",
+            "recordid": "2ca0be02ba130a4af53b1e439707cdc5cb984d6b",
+            "fields": {
+                "departement": "Morbihan",
+                "commune": "Ploemel",
+                "y_wgs84": 6049244.73262,
+                "x_wgs84": -341998.6419,
+                "coordonnees_geographiques": [
+                    47.65254859775738,
+                    -3.072226071667079
+                ],
+                "voyageurs": "O",
+                "rang": 1,
+                "x_lambert_93": 244616.241576,
+                "code_uic": 87476408,
+                "y_lambert_93": 6745536.31378,
+                "libelle_gare": "Belz-Ploemel",
+                "pk": "591+597",
+                "code_ligne": "473000",
+                "fret": "N"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.072226071667079,
+                    47.65254859775738
+                ]
+            },
+            "record_timestamp": "2017-04-06T09:40:37+00:00"
+        },
+        {
+            "datasetid": "liste-des-gares",
+            "recordid": "53d2c2a8ce7692a65caa50941288e87549dfd3d2",
+            "fields": {
+                "departement": "Côte-d'Armor",
+                "commune": "St-Brandan",
+                "y_wgs84": 6173216.53899,
+                "x_wgs84": -321902.665552,
+                "coordonnees_geographiques": [
+                    48.397352367269015,
+                    -2.891700844644444
+                ],
+                "voyageurs": "O",
+                "rang": 1,
+                "x_lambert_93": 264298.903281,
+                "code_uic": 87473330,
+                "y_lambert_93": 6827046.46542,
+                "libelle_gare": "Quintin",
+                "pk": "492+810",
+                "code_ligne": "475000",
+                "fret": "O"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.891700844644444,
+                    48.397352367269015
+                ]
+            },
+            "record_timestamp": "2017-04-06T09:40:37+00:00"
+        }
+    ],
+    "facet_groups": [
+        {
+            "name": "fret",
+            "facets": [
+                {
+                    "name": "N",
+                    "path": "N",
+                    "count": 3146,
+                    "state": "displayed"
+                },
+                {
+                    "name": "O",
+                    "path": "O",
+                    "count": 1886,
+                    "state": "displayed"
+                }
+            ]
+        },
+        {
+            "name": "voyageurs",
+            "facets": [
+                {
+                    "name": "O",
+                    "path": "O",
+                    "count": 3918,
+                    "state": "displayed"
+                },
+                {
+                    "name": "N",
+                    "path": "N",
+                    "count": 1114,
+                    "state": "displayed"
+                }
+            ]
+        },
+        {
+            "name": "code_ligne",
+            "facets": [
+                {
+                    "name": "830000",
+                    "path": "830000",
+                    "count": 145,
+                    "state": "displayed"
+                },
+                {
+                    "name": "570000",
+                    "path": "570000",
+                    "count": 102,
+                    "state": "displayed"
+                },
+                {
+                    "name": "420000",
+                    "path": "420000",
+                    "count": 96,
+                    "state": "displayed"
+                },
+                {
+                    "name": "640000",
+                    "path": "640000",
+                    "count": 76,
+                    "state": "displayed"
+                },
+                {
+                    "name": "001000",
+                    "path": "001000",
+                    "count": 74,
+                    "state": "displayed"
+                },
+                {
+                    "name": "070000",
+                    "path": "070000",
+                    "count": 73,
+                    "state": "displayed"
+                },
+                {
+                    "name": "750000",
+                    "path": "750000",
+                    "count": 72,
+                    "state": "displayed"
+                },
+                {
+                    "name": "590000",
+                    "path": "590000",
+                    "count": 62,
+                    "state": "displayed"
+                },
+                {
+                    "name": "930000",
+                    "path": "930000",
+                    "count": 62,
+                    "state": "displayed"
+                },
+                {
+                    "name": "272000",
+                    "path": "272000",
+                    "count": 58,
+                    "state": "displayed"
+                },
+                {
+                    "name": "500000",
+                    "path": "500000",
+                    "count": 57,
+                    "state": "displayed"
+                },
+                {
+                    "name": "905000",
+                    "path": "905000",
+                    "count": 54,
+                    "state": "displayed"
+                },
+                {
+                    "name": "340000",
+                    "path": "340000",
+                    "count": 47,
+                    "state": "displayed"
+                },
+                {
+                    "name": "229000",
+                    "path": "229000",
+                    "count": 42,
+                    "state": "displayed"
+                },
+                {
+                    "name": "790000",
+                    "path": "790000",
+                    "count": 40,
+                    "state": "displayed"
+                },
+                {
+                    "name": "242000",
+                    "path": "242000",
+                    "count": 39,
+                    "state": "displayed"
+                },
+                {
+                    "name": "325000",
+                    "path": "325000",
+                    "count": 39,
+                    "state": "displayed"
+                },
+                {
+                    "name": "515000",
+                    "path": "515000",
+                    "count": 39,
+                    "state": "displayed"
+                },
+                {
+                    "name": "650000",
+                    "path": "650000",
+                    "count": 39,
+                    "state": "displayed"
+                },
+                {
+                    "name": "205000",
+                    "path": "205000",
+                    "count": 34,
+                    "state": "displayed"
+                },
+                {
+                    "name": "655000",
+                    "path": "655000",
+                    "count": 32,
+                    "state": "displayed"
+                },
+                {
+                    "name": "115000",
+                    "path": "115000",
+                    "count": 31,
+                    "state": "displayed"
+                },
+                {
+                    "name": "330000",
+                    "path": "330000",
+                    "count": 30,
+                    "state": "displayed"
+                },
+                {
+                    "name": "718000",
+                    "path": "718000",
+                    "count": 30,
+                    "state": "displayed"
+                },
+                {
+                    "name": "995000",
+                    "path": "995000",
+                    "count": 30,
+                    "state": "displayed"
+                },
+                {
+                    "name": "110000",
+                    "path": "110000",
+                    "count": 29,
+                    "state": "displayed"
+                },
+                {
+                    "name": "722000",
+                    "path": "722000",
+                    "count": 29,
+                    "state": "displayed"
+                },
+                {
+                    "name": "990000",
+                    "path": "990000",
+                    "count": 29,
+                    "state": "displayed"
+                },
+                {
+                    "name": "267000",
+                    "path": "267000",
+                    "count": 28,
+                    "state": "displayed"
+                },
+                {
+                    "name": "366000",
+                    "path": "366000",
+                    "count": 28,
+                    "state": "displayed"
+                },
+                {
+                    "name": "621000",
+                    "path": "621000",
+                    "count": 28,
+                    "state": "displayed"
+                },
+                {
+                    "name": "334000",
+                    "path": "334000",
+                    "count": 27,
+                    "state": "displayed"
+                },
+                {
+                    "name": "470000",
+                    "path": "470000",
+                    "count": 27,
+                    "state": "displayed"
+                },
+                {
+                    "name": "525000",
+                    "path": "525000",
+                    "count": 27,
+                    "state": "displayed"
+                },
+                {
+                    "name": "530000",
+                    "path": "530000",
+                    "count": 26,
+                    "state": "displayed"
+                },
+                {
+                    "name": "890000",
+                    "path": "890000",
+                    "count": 26,
+                    "state": "displayed"
+                },
+                {
+                    "name": "301000",
+                    "path": "301000",
+                    "count": 25,
+                    "state": "displayed"
+                },
+                {
+                    "name": "775000",
+                    "path": "775000",
+                    "count": 25,
+                    "state": "displayed"
+                },
+                {
+                    "name": "810000",
+                    "path": "810000",
+                    "count": 25,
+                    "state": "displayed"
+                },
+                {
+                    "name": "395000",
+                    "path": "395000",
+                    "count": 24,
+                    "state": "displayed"
+                },
+                {
+                    "name": "550000",
+                    "path": "550000",
+                    "count": 24,
+                    "state": "displayed"
+                },
+                {
+                    "name": "085000",
+                    "path": "085000",
+                    "count": 23,
+                    "state": "displayed"
+                },
+                {
+                    "name": "695000",
+                    "path": "695000",
+                    "count": 23,
+                    "state": "displayed"
+                },
+                {
+                    "name": "760000",
+                    "path": "760000",
+                    "count": 23,
+                    "state": "displayed"
+                },
+                {
+                    "name": "159000",
+                    "path": "159000",
+                    "count": 22,
+                    "state": "displayed"
+                },
+                {
+                    "name": "289000",
+                    "path": "289000",
+                    "count": 22,
+                    "state": "displayed"
+                },
+                {
+                    "name": "669000",
+                    "path": "669000",
+                    "count": 22,
+                    "state": "displayed"
+                },
+                {
+                    "name": "745000",
+                    "path": "745000",
+                    "count": 22,
+                    "state": "displayed"
+                },
+                {
+                    "name": "850000",
+                    "path": "850000",
+                    "count": 22,
+                    "state": "displayed"
+                },
+                {
+                    "name": "852000",
+                    "path": "852000",
+                    "count": 22,
+                    "state": "displayed"
+                },
+                {
+                    "name": "311000",
+                    "path": "311000",
+                    "count": 21,
+                    "state": "displayed"
+                },
+                {
+                    "name": "629000",
+                    "path": "629000",
+                    "count": 21,
+                    "state": "displayed"
+                },
+                {
+                    "name": "672000",
+                    "path": "672000",
+                    "count": 21,
+                    "state": "displayed"
+                },
+                {
+                    "name": "838000",
+                    "path": "838000",
+                    "count": 21,
+                    "state": "displayed"
+                },
+                {
+                    "name": "145000",
+                    "path": "145000",
+                    "count": 20,
+                    "state": "displayed"
+                },
+                {
+                    "name": "295000",
+                    "path": "295000",
+                    "count": 20,
+                    "state": "displayed"
+                },
+                {
+                    "name": "798000",
+                    "path": "798000",
+                    "count": 20,
+                    "state": "displayed"
+                },
+                {
+                    "name": "800000",
+                    "path": "800000",
+                    "count": 20,
+                    "state": "displayed"
+                },
+                {
+                    "name": "900000",
+                    "path": "900000",
+                    "count": 20,
+                    "state": "displayed"
+                },
+                {
+                    "name": "415000",
+                    "path": "415000",
+                    "count": 19,
+                    "state": "displayed"
+                },
+                {
+                    "name": "594000",
+                    "path": "594000",
+                    "count": 19,
+                    "state": "displayed"
+                },
+                {
+                    "name": "631000",
+                    "path": "631000",
+                    "count": 19,
+                    "state": "displayed"
+                },
+                {
+                    "name": "676000",
+                    "path": "676000",
+                    "count": 19,
+                    "state": "displayed"
+                },
+                {
+                    "name": "720000",
+                    "path": "720000",
+                    "count": 19,
+                    "state": "displayed"
+                },
+                {
+                    "name": "746000",
+                    "path": "746000",
+                    "count": 19,
+                    "state": "displayed"
+                },
+                {
+                    "name": "896000",
+                    "path": "896000",
+                    "count": 19,
+                    "state": "displayed"
+                },
+                {
+                    "name": "204000",
+                    "path": "204000",
+                    "count": 18,
+                    "state": "displayed"
+                },
+                {
+                    "name": "020000",
+                    "path": "020000",
+                    "count": 17,
+                    "state": "displayed"
+                },
+                {
+                    "name": "321000",
+                    "path": "321000",
+                    "count": 17,
+                    "state": "displayed"
+                },
+                {
+                    "name": "600000",
+                    "path": "600000",
+                    "count": 17,
+                    "state": "displayed"
+                },
+                {
+                    "name": "713000",
+                    "path": "713000",
+                    "count": 17,
+                    "state": "displayed"
+                },
+                {
+                    "name": "753000",
+                    "path": "753000",
+                    "count": 17,
+                    "state": "displayed"
+                },
+                {
+                    "name": "040000",
+                    "path": "040000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "119000",
+                    "path": "119000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "259000",
+                    "path": "259000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "538000",
+                    "path": "538000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "584000",
+                    "path": "584000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "610000",
+                    "path": "610000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "652000",
+                    "path": "652000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "755000",
+                    "path": "755000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "782000",
+                    "path": "782000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "784000",
+                    "path": "784000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "860000",
+                    "path": "860000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "897000",
+                    "path": "897000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "973000",
+                    "path": "973000",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "261000",
+                    "path": "261000",
+                    "count": 15,
+                    "state": "displayed"
+                },
+                {
+                    "name": "430000",
+                    "path": "430000",
+                    "count": 15,
+                    "state": "displayed"
+                },
+                {
+                    "name": "593000",
+                    "path": "593000",
+                    "count": 15,
+                    "state": "displayed"
+                },
+                {
+                    "name": "648000",
+                    "path": "648000",
+                    "count": 15,
+                    "state": "displayed"
+                },
+                {
+                    "name": "925000",
+                    "path": "925000",
+                    "count": 15,
+                    "state": "displayed"
+                },
+                {
+                    "name": "002000",
+                    "path": "002000",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "042000",
+                    "path": "042000",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "111000",
+                    "path": "111000",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "130000",
+                    "path": "130000",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "146000",
+                    "path": "146000",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "161000",
+                    "path": "161000",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "317000",
+                    "path": "317000",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "329000",
+                    "path": "329000",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "441000",
+                    "path": "441000",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "872000",
+                    "path": "872000",
+                    "count": 14,
+                    "state": "displayed"
+                }
+            ]
+        },
+        {
+            "name": "departement",
+            "facets": [
+                {
+                    "name": "Nord",
+                    "path": "Nord",
+                    "count": 209,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Bas-Rhin",
+                    "path": "Bas-Rhin",
+                    "count": 143,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Moselle",
+                    "path": "Moselle",
+                    "count": 125,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Pas-de-Calais",
+                    "path": "Pas-de-Calais",
+                    "count": 125,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Oise",
+                    "path": "Oise",
+                    "count": 110,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Gironde",
+                    "path": "Gironde",
+                    "count": 96,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Rhône",
+                    "path": "Rhône",
+                    "count": 96,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Haut-Rhin",
+                    "path": "Haut-Rhin",
+                    "count": 93,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Yvelines",
+                    "path": "Yvelines",
+                    "count": 93,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Seine-et-Marne",
+                    "path": "Seine-et-Marne",
+                    "count": 92,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Meurthe-et-Moselle",
+                    "path": "Meurthe-et-Moselle",
+                    "count": 91,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Bouches-du-Rhône",
+                    "path": "Bouches-du-Rhône",
+                    "count": 89,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Seine-Maritime",
+                    "path": "Seine-Maritime",
+                    "count": 88,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Aisne",
+                    "path": "Aisne",
+                    "count": 83,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Val-d'Oise",
+                    "path": "Val-d'Oise",
+                    "count": 83,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Côte-d'Or",
+                    "path": "Côte-d'Or",
+                    "count": 81,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Loire-Atlantique",
+                    "path": "Loire-Atlantique",
+                    "count": 81,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Ain",
+                    "path": "Ain",
+                    "count": 79,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Marne",
+                    "path": "Marne",
+                    "count": 76,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Saône-et-Loire",
+                    "path": "Saône-et-Loire",
+                    "count": 72,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Essonne",
+                    "path": "Essonne",
+                    "count": 70,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Somme",
+                    "path": "Somme",
+                    "count": 67,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Gard",
+                    "path": "Gard",
+                    "count": 64,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Indre-et-Loire",
+                    "path": "Indre-et-Loire",
+                    "count": 64,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Eure-et-Loir",
+                    "path": "Eure-et-Loir",
+                    "count": 61,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Dordogne",
+                    "path": "Dordogne",
+                    "count": 60,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Loiret",
+                    "path": "Loiret",
+                    "count": 59,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Puy-de-Dôme",
+                    "path": "Puy-de-Dôme",
+                    "count": 59,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Doubs",
+                    "path": "Doubs",
+                    "count": 58,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Haute-Garonne",
+                    "path": "Haute-Garonne",
+                    "count": 58,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Ille-et-Vilaine",
+                    "path": "Ille-et-Vilaine",
+                    "count": 58,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Vosges",
+                    "path": "Vosges",
+                    "count": 56,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Isère",
+                    "path": "Isère",
+                    "count": 55,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Paris",
+                    "path": "Paris",
+                    "count": 55,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Pyrénées-Orientales",
+                    "path": "Pyrénées-Orientales",
+                    "count": 55,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Hérault",
+                    "path": "Hérault",
+                    "count": 54,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Seine-St-Denis",
+                    "path": "Seine-St-Denis",
+                    "count": 54,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Yonne",
+                    "path": "Yonne",
+                    "count": 54,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Côte-d'Armor",
+                    "path": "Côte-d'Armor",
+                    "count": 53,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Allier",
+                    "path": "Allier",
+                    "count": 52,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Haute-Vienne",
+                    "path": "Haute-Vienne",
+                    "count": 52,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Alpes-Maritimes",
+                    "path": "Alpes-Maritimes",
+                    "count": 51,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Ardennes",
+                    "path": "Ardennes",
+                    "count": 51,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Haute-Savoie",
+                    "path": "Haute-Savoie",
+                    "count": 51,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Loir-et-Cher",
+                    "path": "Loir-et-Cher",
+                    "count": 51,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Vienne",
+                    "path": "Vienne",
+                    "count": 51,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Hauts-de-Seine",
+                    "path": "Hauts-de-Seine",
+                    "count": 50,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Pyrénées-Atlantiques",
+                    "path": "Pyrénées-Atlantiques",
+                    "count": 49,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Eure",
+                    "path": "Eure",
+                    "count": 48,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Jura",
+                    "path": "Jura",
+                    "count": 47,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Loire",
+                    "path": "Loire",
+                    "count": 46,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Charente-Maritime",
+                    "path": "Charente-Maritime",
+                    "count": 45,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Nièvre",
+                    "path": "Nièvre",
+                    "count": 45,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Savoie",
+                    "path": "Savoie",
+                    "count": 45,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Maine-et-Loire",
+                    "path": "Maine-et-Loire",
+                    "count": 44,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Corrèze",
+                    "path": "Corrèze",
+                    "count": 42,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Haute-Marne",
+                    "path": "Haute-Marne",
+                    "count": 42,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Sarthe",
+                    "path": "Sarthe",
+                    "count": 40,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Meuse",
+                    "path": "Meuse",
+                    "count": 37,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Aube",
+                    "path": "Aube",
+                    "count": 36,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Aveyron",
+                    "path": "Aveyron",
+                    "count": 35,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Haute-Corse",
+                    "path": "Haute-Corse",
+                    "count": 35,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Landes",
+                    "path": "Landes",
+                    "count": 35,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Calvados",
+                    "path": "Calvados",
+                    "count": 34,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Cher",
+                    "path": "Cher",
+                    "count": 34,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Indre",
+                    "path": "Indre",
+                    "count": 34,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Lot-et-Garonne",
+                    "path": "Lot-et-Garonne",
+                    "count": 34,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Deux-Sèvres",
+                    "path": "Deux-Sèvres",
+                    "count": 33,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Var",
+                    "path": "Var",
+                    "count": 33,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Aude",
+                    "path": "Aude",
+                    "count": 32,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Drôme",
+                    "path": "Drôme",
+                    "count": 32,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Haute-Saône",
+                    "path": "Haute-Saône",
+                    "count": 32,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Val-de-Marne",
+                    "path": "Val-de-Marne",
+                    "count": 32,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Vendée",
+                    "path": "Vendée",
+                    "count": 32,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Vaucluse",
+                    "path": "Vaucluse",
+                    "count": 29,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Finistère",
+                    "path": "Finistère",
+                    "count": 27,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Haute-Loire",
+                    "path": "Haute-Loire",
+                    "count": 27,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Lot",
+                    "path": "Lot",
+                    "count": 27,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Morbihan",
+                    "path": "Morbihan",
+                    "count": 27,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Charente",
+                    "path": "Charente",
+                    "count": 26,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Creuse",
+                    "path": "Creuse",
+                    "count": 25,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Lozère",
+                    "path": "Lozère",
+                    "count": 25,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Orne",
+                    "path": "Orne",
+                    "count": 25,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Tarn",
+                    "path": "Tarn",
+                    "count": 25,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Cantal",
+                    "path": "Cantal",
+                    "count": 22,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Tarn-et-Garonne",
+                    "path": "Tarn-et-Garonne",
+                    "count": 22,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Manche",
+                    "path": "Manche",
+                    "count": 21,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Hautes-Alpes",
+                    "path": "Hautes-Alpes",
+                    "count": 19,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Hautes-Pyrénées",
+                    "path": "Hautes-Pyrénées",
+                    "count": 19,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Mayenne",
+                    "path": "Mayenne",
+                    "count": 15,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Gers",
+                    "path": "Gers",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Territoire-de-Belfort",
+                    "path": "Territoire-de-Belfort",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Ariège",
+                    "path": "Ariège",
+                    "count": 13,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Ardèche",
+                    "path": "Ardèche",
+                    "count": 12,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Alpes-de-Haute-Provenc",
+                    "path": "Alpes-de-Haute-Provenc",
+                    "count": 10,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Étranger",
+                    "path": "Étranger",
+                    "count": 8,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Corse-du-Sud",
+                    "path": "Corse-du-Sud",
+                    "count": 7,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Belgique",
+                    "path": "Belgique",
+                    "count": 3,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Italie",
+                    "path": "Italie",
+                    "count": 2,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Luxembourg",
+                    "path": "Luxembourg",
+                    "count": 2,
+                    "state": "displayed"
+                }
+            ]
+        }
+    ]
+}
