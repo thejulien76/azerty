@@ -25,11 +25,10 @@ Utilise Dagger2, RxJava2, Retrofit2, Room
 </tr>  
 </TABLE>  
 
-| ![Screenshot1](./docs/images/Screenshot_01.png) |![Screenshot1](./docs/images/Screenshot_01.png)   | ![Screenshot1](./docs/images/Screenshot_01.png)  | ![Screenshot1](./docs/images/Screenshot_01.png)  |
-|--|--|--|--|--|
-|  |  ||  |  |
-  
-L'une des meilleures façons d'expérimenter un framework ou des librairies en Android est de créer une application ToDo. C'est exactement ce que nous avons fait afin d'explorer le design pattern MVP et  coup ont à offrir.  Nous avons donc réalisé un exemple pratique d'une application "Clean Architecture" que nous partageons ici
+
+L'une des meilleures façons d'expérimenter un framework ou des librairies en Android est de créer une application ToDo. 
+C'est exactement ce que nous avons fait afin d'explorer le design pattern MVP et les librairies appréciées par la communauté Android.  
+Nous avons donc réalisé un exemple pratique d'une application "Clean Architecture" que nous partageons ici.
   
   
 > Ceci n'est pas un starter kit.  
@@ -43,7 +42,7 @@ https://data.sncf.com/explore/dataset/liste-des-gares/information/
 https://data.sncf.com/explore/dataset/liste-des-gares/api
 # Table des matières
 
-  * [Pourquoi cette application](#Pourquoi-cette-application)
+  * [Pourquoi cette application](##Pourquoi-cette-application)
      * [Injection de dependance](#Injection-de-dependance)
      * [Qu est ce que l injection de dépendance](#Qu-est-ce que l injection de dépendance ?)
   * [Installation](#installation)
