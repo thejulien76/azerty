@@ -1,34 +1,46 @@
-﻿
-<p align="center">
-  <img src="./docs/images/logo-mvp-mvp.png">
-</p>
+﻿<p align="center">  
+  <img src="./docs/images/logo-mvp-mvp.png">  
+</p>  
+  
+<p align="center">  
+  Ce dépôt contient le code source d'une application Android au format   
+  <strong><a href="https://en.wikipedia.org/wiki/Minimum\_viable\_product">Minimum Viable Product (MVP)</a></strong>  
+illustrant le patron de conception  <strong><a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter">Model View Presenter (MVP)</a></strong>.  
+<br/><br/>
+Utilise Dagger2, RxJava2, Retrofit2, Room
+</p>  
 
-<p align="center">
-  Ce dépôt contient le code source d'une application Android au format 
-  <strong><a href="https://en.wikipedia.org/wiki/Minimum_viable_product">Minimum Viable Product (MVP)</a></strong>
-illustrant le patron de conception  <strong><a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter">Model View Presenter (MVP)</a></strong>.
-</p>
+<pre><code><strong>Pour</strong> les d&eacute;veloppeurs / concepteurs
+<strong>Qui doivent</strong> r&eacute;aliser une application Android testable et maintenable
+<strong>Ce d&eacute;pot gitlab propose </strong>une application fonctionnelle
+<strong>Qui</strong> illustre les bonnes pratiques
+</code></pre>
+<TABLE>  
+<tr>  
+    <td width=20% ><img src="./docs/images/Screenshot_01.png"></td>  
+    <td width=20% ><img src="./docs/images/Screenshot_02.png"></td>  
+    <td width=20% ><img src="./docs/images/Screenshot_03.png"></td>  
+    <td width=20% ><img src="./docs/images/Screenshot_04.png"></td>  
+    <td width=20% ><img src="./docs/images/Screenshot_05.png"></td>      
+</tr>  
+</TABLE>  
+
+| ![Screenshot1](./docs/images/Screenshot_01.png) |![Screenshot1](./docs/images/Screenshot_01.png)   | ![Screenshot1](./docs/images/Screenshot_01.png)  | ![Screenshot1](./docs/images/Screenshot_01.png)  |
+|--|--|--|--|--|
+|  |  ||  |  |
+  
+L'une des meilleures façons d'expérimenter un framework ou des librairies en Android est de créer une application ToDo. C'est exactement ce que nous avons fait afin d'explorer le design pattern MVP et  coup ont à offrir.  Nous avons donc réalisé un exemple pratique d'une application "Clean Architecture" que nous partageons ici
+  
+  
+> Ceci n'est pas un starter kit.  
+  
 
 
-Utilise Dagger2, RxJava2, Retrofit2, Room.
+  
 
-> Ceci n'est pas un starter kit.
-
-<TABLE>
-<tr>
-    <td width=20% ><img src="./docs/images/Screenshot_01.png"></td>
-    <td width=20% ><img src="./docs/images/Screenshot_02.png"></td>
-    <td width=20% ><img src="./docs/images/Screenshot_03.png"></td>
-    <td width=20% ><img src="./docs/images/Screenshot_04.png"></td>
-    <td width=20% ><img src="./docs/images/Screenshot_05.png"></td>    
-</tr>
-</TABLE>
-
-https://data.sncf.com/explore/dataset/liste-des-gares/information/
-
-https://data.sncf.com/explore/dataset/liste-des-gares/api/
-
-
+https://data.sncf.com/explore/dataset/liste-des-gares/information/  
+  
+https://data.sncf.com/explore/dataset/liste-des-gares/api
 # Table des matières
 
   * [Pourquoi cette application](#Pourquoi-cette-application)
