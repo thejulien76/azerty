@@ -32,12 +32,10 @@ Notre application (mvp)(mvp) by EMI GMAO vous permet d'obtenir le meilleur itin�
   https://data.sncf.com/explore/dataset/liste-des-gares/information/  
   https://data.sncf.com/explore/dataset/liste-des-gares/api
 - L'itinéraire est ensuite établi grace à l'API Google Maps
-
-
-`L'une des meilleures façons d'expérimenter un framework et des librairies en Android est de créer une application qui les utilise. 
+----------
+L'une des meilleures façons d'expérimenter un framework et des librairies en Android est de créer une application qui les utilise. 
 C'est exactement ce que nous avons fait afin d'explorer le design pattern  [MPV](#https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) et les librairies appréciées par la communauté Android.  
 Nous avons donc réalisé un exemple pratique d'une application "Clean Architecture" que nous partageons ici.`
-
   
 > Ceci n'est pas un starter kit de développement.  
   
@@ -47,7 +45,7 @@ Nous avons donc réalisé un exemple pratique d'une application "Clean Architect
   * [Pourquoi cette application](#h-Pourquoi-cette-application)
      * [Pourquoi le modèle MPV](#h-pourquoi-MVP)
 		* [Qu’est-ce que le principe de « Séparation des préoccupations »  ?]{#h-quoi-SOC}	 
-		* [Pourquoi avons-nous besoin de bien d’appliquer le principe de « Séparation des préoccupations » ? »  ?]{#h-pourquoi-SOC}	 
+     * [Pourquoi avons-nous besoin de bien d’appliquer le principe de « Séparation des préoccupations » ? »  ?]{#h-pourquoi-SOC}	 
 		* [Comment bien appliquer ce principe ?]{#h-comment-SOC}	 		
      * [Injection de dependance](#h-Injection-de-dependance)
      * [Qu est ce que l injection de dépendance](#Qu-est-ce que l injection de dépendance ?)
