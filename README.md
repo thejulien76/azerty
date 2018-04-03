@@ -25,11 +25,6 @@ Utilise Dagger2, RxJava2, Retrofit2, Room
     <td width=20% ><img src="./docs/images/Screenshot_05.png"></td>      
 </tr>  
 </TABLE>  
-
-L'une des meilleures façons d'expérimenter un framework et des librairies en Android est de créer une application qui les utilise. 
-C'est exactement ce que nous avons fait afin d'explorer le design pattern  [MPV](#https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) et les librairies appréciées par la communauté Android.  
-Nous avons donc réalisé un exemple pratique d'une application "Clean Architecture" que nous partageons ici.
-
 Commencer par trouver le bon chemin pour se rendre à la gare, c'est la première étape pour prendre le train !
 Notre application (mvp)(mvp) by EMI GMAO vous permet d'obtenir le meilleur itinéraire en un clic !
 - La liste des gares et leurs positions GPS est obtenu via l'API OPEN DATA SNCF :
@@ -37,17 +32,21 @@ Notre application (mvp)(mvp) by EMI GMAO vous permet d'obtenir le meilleur itin�
   https://data.sncf.com/explore/dataset/liste-des-gares/api
 - L'itinéraire est ensuite établi grace à l'API Google Maps
 
-
+L'une des meilleures façons d'expérimenter un framework et des librairies en Android est de créer une application qui les utilise. 
+C'est exactement ce que nous avons fait afin d'explorer le design pattern  [MPV](#https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) et les librairies appréciées par la communauté Android.  
+Nous avons donc réalisé un exemple pratique d'une application "Clean Architecture" que nous partageons ici.
 
   
 > Ceci n'est pas un starter kit de développement.  
   
 
-
 # Table des matières
 
   * [Pourquoi cette application](#h-Pourquoi-cette-application)
      * [Pourquoi le modèle MPV](#h-pourquoi-MVP)
+		* [Qu’est-ce que le principe de « Séparation des préoccupations »  ?] {#h-quoi-SOC}	 
+		* [Pourquoi avons-nous besoin de bien d’appliquer le principe de « Séparation des préoccupations » ? »  ?] {#h-pourquoi-SOC}	 
+		* [Comment bien appliquer ce principe ?] {#h-comment-SOC}	 		
      * [Injection de dependance](#h-Injection-de-dependance)
      * [Qu est ce que l injection de dépendance](#Qu-est-ce que l injection de dépendance ?)
   * [Installation](#installation)
@@ -86,11 +85,10 @@ Build Android
 Configurer son projet pour la PIC 
 
 ## Pourquoi le modèle MPV  <a name="h-pourquoi-MVP">
-<p style="padding-left: 30px;">
 Parce que l'on se préocupe de respecter le principe de Séparation des préoccupations
-</p> 
-### Qu’est-ce que le principe de « Séparation des préoccupations »  ?
-<p style="padding-left: 30px;">
+
+### Qu’est-ce que le principe de « Séparation des préoccupations »  ? <a name="h-quoi-SOC">
+
 « La séparation des préoccupations (separation of concerns) est un principe de conception visant à séparer un programme informatique en parties, afin que chacune d’entre elle isole un problème précis de la problématique générale.
 https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pr%C3%A9occupations
 Une préoccupation (concern) est un ensemble d’informations qui affecte le code d’un programme informatique. Le concept de préoccupation peut recouvrir des aspects informatiques très variés.
@@ -102,18 +100,18 @@ Les conceptions en couches dans les systèmes d’information constituent un aut
 
 L’application du principe de séparation des préoccupations simplifie le développement et la maintenance des programmes informatiques. Quand les préoccupations sont strictement séparées, les différentes parties du code peuvent être réutilisées, étendues ou modifiées indépendamment des autres. Cela permet ainsi d’intervenir sur une partie du code sans avoir de connaissance particulière sur l’ensemble des autres parties. »
 Définition Wikipédia
-</p>
-### Pourquoi avons-nous besoin de bien d’appliquer le principe de « Séparation des préoccupations » ?
-<p style="padding-left: 30px;">
+
+### Pourquoi avons-nous besoin de bien d’appliquer le principe de « Séparation des préoccupations » ?  <a name="h-pourquoi-SOC">
+
 Premièrement, nous devons affronter la complexité interne autant que de l’incertitude de l’environnement.
 Ce principe de séparation permet de rendre les différentes couches (données, contrôleur, vue) indépendantes.
 
 Un des atouts principal de séparer les préoccupations est que le code spécifique à Android se trouve que dans la vue. 
 Le controleur est composé que de JAVA. Ce qui peut permettre par exemple l’intégration de développeur +/- expérimenté sur la technologie android à des projet Android.
-</p>
 
-### Comment bien appliquer ce principe ?
-<p style="padding-left: 30px;">
+
+### Comment bien appliquer ce principe ?  <a name="h-comment-SOC">
+
 L’approche des meilleures pratiques pour organiser les applications Android en composants logiques a évolué au cours des dernières années. 
 La communauté s’est éloignée du modèle monolithique Modèle Vue Contrôleur (MVC) en faveur de modèle plus modulaires et testables. 
 
@@ -140,25 +138,25 @@ Dans l'ensemble, la conception MVP encourage l’architecture propre.
 Le composant ne contient que du code JAVA (pas de développement spécifique Android) ce qui permet de le tester plus facilement. 
 
 Avant de nous lancer directement dans l’application de ce modèle, qu’en est-il des nouveaux outils disponibles pour les développeurs Android ? Il existe maintenant de nombreuses bibliothèques Android qui leur facilitent la vie et permettent de dynamiser l’obtention d’architectures correctes partagées : c’est l’objet de cette étude.
-</p>
+
 ## Injection de dépendance
 ### Qu'est-ce que l'injection de dépendance ?
-<p style="padding-left: 30px;">
+
 L'injection de dépendances est un mécanisme qui permet d'implémenter le principe de l'inversion de contrôle.
 Il consiste à créer dynamiquement (injecter) les dépendances entre les différents objets en s'appuyant sur une description (fichier de configuration ou métadonnées) ou de manière programmatique. Ainsi les dépendances entre composants logiciels ne sont plus exprimées dans le code de manière statique mais déterminées dynamiquement à l'exécution.
-</p>
+
 ### Pourquoi avons-nous besoin de l'injection de dépendance ?
-<p style="padding-left: 30px;">
+
 Si une classe java crée une instance d'une autre classe via l'opérateur new, alors elle ne peut pas être utilisée et testée indépendamment de cette classe → dépendance forte.
 
 Il semble très difficile, voire impossible, d’effectuer des tests unitaires sous Android. Trop souvent sont remis en cause les Activités, Fragments et Vues, qui possèdent leurs propre cycles de vies et qui utilisent des méthodes propres au système, et dépendantes d’un Context.
 
 L'avantage le plus important de fournir les dépendances de l'extérieur de la classe est qu'il augmente la possibilité de réutiliser celle-ci et de pouvoir la tester indépendamment des autres classes.
-</p>
+
 ### Comment faire de l’injection de dépendance ?
-<p style="padding-left: 30px;">
+
 C'est un des objets de cette application.
-</p>
+
 #MVP #PackageByFeatures #Dagger2 #Retrofit #RxJava2 
 ----------
 
