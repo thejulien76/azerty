@@ -47,7 +47,9 @@ Nous avons donc réalisé un exemple pratique d'une application "Clean Architect
 		* <A href="#h-pourquoi-SOC">Pourquoi avons-nous besoin de bien appliquer le principe de « Séparation des préoccupations » ? »  ?</A>	 
 		* <A href="#h-comment-SOC">Comment bien appliquer ce principe ?</A>
      * [Injection de dependance](#h-quoi_injection-de-dependance)
-     * [Qu est ce que l injection de dépendance](#Qu-est-ce que l injection de dépendance ?)
+		* <A href="#h-quoi_injection-de-dependance">Qu est ce que l injection de dépendance ?</A>
+		* <A href="#h-quoi_injection-de-dependance">Pourquoi avons-nous besoin de l'injection de dépendance ?</A>
+		* <A href="#h-quoi_injection-de-dependance">Comment faire de l injection de dépendance ?</A>		
   * [Installation](#installation)
      * [Contributeurs](#Contributeurs)
      * [Pile Logicielle](#Pile-Logicielle)
@@ -62,26 +64,25 @@ Ceci est un application démonstration du patron de conception logiciel  Model V
 
 # Pourquoi cette application <a name="h-Pourquoi-cette-application">
   
-- Diffuser les bonnes pratiques. 
-- Capitaliser les connaissances. 
-- Faciliter l’apprentissage et la montée en compétence des développeurs/concepteurs. 
-- Homogénéisation de l’implémentation.
-- Pour définir et présenter l’architecture logicielle commune aux applications SPOT Mobiles et ainsi préparer la mise en place de composants technico fonctionnels communs et réutilisables. 
-- Conception:
-	- Modèle de conception 
+  *  Diffuser les bonnes pratiques. 
+  *  Capitaliser les connaissances. 
+  *  Faciliter l’apprentissage et la montée en compétence des développeurs/concepteurs. 
+  *  Homogénéisation de l’implémentation.
+  *  Pour définir et présenter l’architecture logicielle commune aux applications SPOT Mobiles et ainsi préparer la mise en place de composants technico fonctionnels communs et réutilisables. 
 
-- Implémentation 
-	- --> Schéma Directeur : Une pile logicielle unifiée 
-Initialiser son projet Android 
-
-Test unitaires 
-Conventions de nommage 
-- Test 
-Automatisation : Usine logicielle 
-Intégration Continue 
-Git dans l’usine Logicielle 
-Build Android 
-Configurer son projet pour la PIC 
+  *  Conception:
+	*  Modèle de conception 
+  * Implémentation 
+	* Schéma Directeur : Une pile logicielle unifiée 
+	* Initialiser son projet Android 
+	* Tests unitaires 
+	* Conventions de nommage 
+  *  Test 
+	* Automatisation : Usine logicielle 
+  * Intégration Continue 
+	* Git dans l’usine Logicielle 
+	* Build Android 
+	* Configurer son projet pour la PIC 
 
 ## Pourquoi le modèle MPV  <a name="h-pourquoi-MVP">
 Parce que l'on se préoccupe de respecter le principe de Séparation des préoccupations
