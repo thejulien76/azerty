@@ -86,8 +86,11 @@ Build Android
 Configurer son projet pour la PIC 
 
 ## Pourquoi le modèle MPV  <a name="h-pourquoi-MVP">
-Parce que l'on se préocupe de respecter le principe de Séparation des préoccupations 
+<p style="padding-left: 30px;">
+Parce que l'on se préocupe de respecter le principe de Séparation des préoccupations
+</p> 
 ### Qu’est-ce que le principe de « Séparation des préoccupations »  ?
+<p style="padding-left: 30px;">
 « La séparation des préoccupations (separation of concerns) est un principe de conception visant à séparer un programme informatique en parties, afin que chacune d’entre elle isole un problème précis de la problématique générale.
 https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pr%C3%A9occupations
 Une préoccupation (concern) est un ensemble d’informations qui affecte le code d’un programme informatique. Le concept de préoccupation peut recouvrir des aspects informatiques très variés.
@@ -99,18 +102,18 @@ Les conceptions en couches dans les systèmes d’information constituent un aut
 
 L’application du principe de séparation des préoccupations simplifie le développement et la maintenance des programmes informatiques. Quand les préoccupations sont strictement séparées, les différentes parties du code peuvent être réutilisées, étendues ou modifiées indépendamment des autres. Cela permet ainsi d’intervenir sur une partie du code sans avoir de connaissance particulière sur l’ensemble des autres parties. »
 Définition Wikipédia
-
+</p>
 ### Pourquoi avons-nous besoin de bien d’appliquer le principe de « Séparation des préoccupations » ?
-
+<p style="padding-left: 30px;">
 Premièrement, nous devons affronter la complexité interne autant que de l’incertitude de l’environnement.
 Ce principe de séparation permet de rendre les différentes couches (données, contrôleur, vue) indépendantes.
 
 Un des atouts principal de séparer les préoccupations est que le code spécifique à Android se trouve que dans la vue. 
 Le controleur est composé que de JAVA. Ce qui peut permettre par exemple l’intégration de développeur +/- expérimenté sur la technologie android à des projet Android.
-
+</p>
 
 ### Comment bien appliquer ce principe ?
-
+<p style="padding-left: 30px;">
 L’approche des meilleures pratiques pour organiser les applications Android en composants logiques a évolué au cours des dernières années. 
 La communauté s’est éloignée du modèle monolithique Modèle Vue Contrôleur (MVC) en faveur de modèle plus modulaires et testables. 
 
@@ -137,24 +140,25 @@ Dans l'ensemble, la conception MVP encourage l’architecture propre.
 Le composant ne contient que du code JAVA (pas de développement spécifique Android) ce qui permet de le tester plus facilement. 
 
 Avant de nous lancer directement dans l’application de ce modèle, qu’en est-il des nouveaux outils disponibles pour les développeurs Android ? Il existe maintenant de nombreuses bibliothèques Android qui leur facilitent la vie et permettent de dynamiser l’obtention d’architectures correctes partagées : c’est l’objet de cette étude.
-
+</p>
 ## Injection de dépendance
 ### Qu'est-ce que l'injection de dépendance ?
-
+<p style="padding-left: 30px;">
 L'injection de dépendances est un mécanisme qui permet d'implémenter le principe de l'inversion de contrôle.
 Il consiste à créer dynamiquement (injecter) les dépendances entre les différents objets en s'appuyant sur une description (fichier de configuration ou métadonnées) ou de manière programmatique. Ainsi les dépendances entre composants logiciels ne sont plus exprimées dans le code de manière statique mais déterminées dynamiquement à l'exécution.
-
+</p>
 ### Pourquoi avons-nous besoin de l'injection de dépendance ?
-
+<p style="padding-left: 30px;">
 Si une classe java crée une instance d'une autre classe via l'opérateur new, alors elle ne peut pas être utilisée et testée indépendamment de cette classe → dépendance forte.
 
 Il semble très difficile, voire impossible, d’effectuer des tests unitaires sous Android. Trop souvent sont remis en cause les Activités, Fragments et Vues, qui possèdent leurs propre cycles de vies et qui utilisent des méthodes propres au système, et dépendantes d’un Context.
 
 L'avantage le plus important de fournir les dépendances de l'extérieur de la classe est qu'il augmente la possibilité de réutiliser celle-ci et de pouvoir la tester indépendamment des autres classes.
-
+</p>
 ### Comment faire de l’injection de dépendance ?
-
-
+<p style="padding-left: 30px;">
+C'est un des objets de cette application.
+</p>
 #MVP #PackageByFeatures #Dagger2 #Retrofit #RxJava2 
 ----------
 
