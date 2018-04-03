@@ -57,35 +57,30 @@ Nous avons donc réalisé un exemple pratique d'une application "Clean Architect
      * [Installation](#Installation)
      * [Lancer les tests](#Lancer-les-tests)
 
-Illustration  Modèle de Conception Android MVP
-
-Ceci est un application démonstration du patron de conception logiciel  Model Vue Presenter
-
-
 # Pourquoi cette application <a name="h-Pourquoi-cette-application">
   
-  *  Diffuser les bonnes pratiques. 
-  *  Capitaliser les connaissances. 
-  *  Faciliter l’apprentissage et la montée en compétence des développeurs/concepteurs. 
-  *  Homogénéisation de l’implémentation.
-  *  Pour définir et présenter l’architecture logicielle commune aux applications SPOT Mobiles et ainsi préparer la mise en place de composants technico fonctionnels communs et réutilisables. 
+  * Diffuser les bonnes pratiques. 
+  * Capitaliser les connaissances. 
+  * Faciliter l’apprentissage et la montée en compétence des développeurs/concepteurs. 
+  * Homogénéisation de l’implémentation.
+  * Pour définir et présenter l’architecture logicielle commune aux applications SPOT Mobiles et ainsi préparer la mise en place de composants technico fonctionnels communs et réutilisables. 
 
-  *  Conception:
-	*  Modèle de conception 
+  * Conception:
+	* Modèle de conception 
   * Implémentation 
 	* Schéma Directeur : Une pile logicielle unifiée 
 	* Initialiser son projet Android 
 	* Tests unitaires 
 	* Conventions de nommage 
-  *  Test 
+  * Test 
 	* Automatisation : Usine logicielle 
   * Intégration Continue 
 	* Git dans l’usine Logicielle 
 	* Build Android 
 	* Configurer son projet pour la PIC 
 
-## Pourquoi le modèle MPV  <a name="h-pourquoi-MVP">
-Parce que l'on se préoccupe de respecter le principe de Séparation des préoccupations
+## Pourquoi le modèle MVP  <a name="h-pourquoi-MVP">
+Parce que l'on se préoccupe de respecter le principe de Séparation des préoccupations:
 
 ### Qu'est-ce que le principe de « Séparation des préoccupations »  ? <a name="h-quoi-SOC">
 
