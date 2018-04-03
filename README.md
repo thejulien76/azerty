@@ -84,7 +84,7 @@ Build Android
 Configurer son projet pour la PIC 
 
 ## Pourquoi le modèle MPV  <a name="h-pourquoi-MVP">
-Parce que l'on se préocupe de respecter le principe de Séparation des préoccupations
+Parce que l'on se préoccupe de respecter le principe de Séparation des préoccupations
 
 ### Qu'est-ce que le principe de « Séparation des préoccupations »  ? <a name="h-quoi-SOC">
 
@@ -111,14 +111,14 @@ Une préoccupation (concern) est un ensemble d’informations qui affecte le cod
 
 ### Comment bien appliquer ce principe ?  <a name="h-comment-SOC">
 
-L’approche des meilleures pratiques pour organiser les applications Android en composants logiques a évolué au cours des dernières années. 
-La communauté s’est éloignée du modèle monolithique Modèle Vue Contrôleur (MVC) en faveur de modèle plus modulaires et testables. 
+> L’approche des meilleures pratiques pour organiser les applications Android en composants logiques a évolué au cours des dernières années. 
+> La communauté s’est éloignée du modèle monolithique Modèle Vue Contrôleur (MVC) en faveur de modèle plus modulaires et testables. 
 
 Les deux alternatives les plus largement adoptées sont :
 -	le Modèle Vue Presenteur (MVP)
 -	le Modèle Vue Vue Modèle (MVVM)
 
-Au démarrage de la présente étude il y a eu un consensus pour adopter le modèle MVP. Le principal argument étant que le MVP est plus facile à appréhender, à modifier et à enrichir. L’ajout de nouvelles fonctionnalités avec MVVM nécessite plus d’expérience et d’expertise.
+> Au démarrage de la présente étude il y a eu un consensus pour adopter le modèle MVP. Le principal argument étant que le MVP est plus facile à appréhender, à modifier et à enrichir. L’ajout de nouvelles fonctionnalités avec MVVM nécessite plus d’expérience et d’expertise.
 
 Avantage du modèle MVP :
 	
@@ -136,25 +136,25 @@ Le Presenteur ne connaît la Vue qu'à travers une interface et, par conséquent
 Dans l'ensemble, la conception MVP encourage l’architecture propre.
 Le composant ne contient que du code JAVA (pas de développement spécifique Android) ce qui permet de le tester plus facilement. 
 
-Avant de nous lancer directement dans l’application de ce modèle, qu’en est-il des nouveaux outils disponibles pour les développeurs Android ? Il existe maintenant de nombreuses bibliothèques Android qui leur facilitent la vie et permettent de dynamiser l’obtention d’architectures correctes partagées : c’est l’objet de cette étude.
+> Avant de nous lancer directement dans l’application de ce modèle, qu’en est-il des nouveaux outils disponibles pour les développeurs Android ? Il existe maintenant de nombreuses bibliothèques Android qui leur facilitent la vie et permettent de dynamiser l’obtention d’architectures correctes partagées : c’est l’objet de cette étude.
 
 ## Injection de dépendance 
 ### Qu'est-ce que l'injection de dépendance ? <a name="h-quoi_injection-de-dependance">
 
-L'injection de dépendances est un mécanisme qui permet d'implémenter le principe de l'inversion de contrôle.
-Il consiste à créer dynamiquement (injecter) les dépendances entre les différents objets en s'appuyant sur une description (fichier de configuration ou métadonnées) ou de manière programmatique. Ainsi les dépendances entre composants logiciels ne sont plus exprimées dans le code de manière statique mais déterminées dynamiquement à l'exécution.
+> L'injection de dépendances est un mécanisme qui permet d'implémenter le principe de l'inversion de contrôle.
+> Il consiste à créer dynamiquement (injecter) les dépendances entre les différents objets en s'appuyant sur une description (fichier de configuration ou métadonnées) ou de manière programmatique. Ainsi les dépendances entre composants logiciels ne sont plus exprimées dans le code de manière statique mais déterminées dynamiquement à l'exécution.
 
 ### Pourquoi avons-nous besoin de l'injection de dépendance ? <a name="h-pourquoi_injection-de-dependance">
 
-Si une classe java crée une instance d'une autre classe via l'opérateur new, alors elle ne peut pas être utilisée et testée indépendamment de cette classe → dépendance forte.
-
-Il semble très difficile, voire impossible, d’effectuer des tests unitaires sous Android. Trop souvent sont remis en cause les Activités, Fragments et Vues, qui possèdent leurs propre cycles de vies et qui utilisent des méthodes propres au système, et dépendantes d’un Context.
-
-L'avantage le plus important de fournir les dépendances de l'extérieur de la classe est qu'il augmente la possibilité de réutiliser celle-ci et de pouvoir la tester indépendamment des autres classes.
+> Si une classe java crée une instance d'une autre classe via l'opérateur new, alors elle ne peut pas être utilisée et testée indépendamment de cette classe → dépendance forte.
+> 
+> Il semble très difficile, voire impossible, d’effectuer des tests unitaires sous Android. Trop souvent sont remis en cause les Activités, Fragments et Vues, qui possèdent leurs propre cycles de vies et qui utilisent des méthodes propres au système, et dépendantes d’un Context.
+> 
+> L'avantage le plus important de fournir les dépendances de l'extérieur de la classe est qu'il augmente la possibilité de réutiliser celle-ci et de pouvoir la tester indépendamment des autres classes.
 
 ### Comment faire de l’injection de dépendance ? <a name="h-comment_injection-de-dependance">
 
-C'est un des objets de cette application.
+> C'est un des objets de cette application.
 
 #MVP #PackageByFeatures #Dagger2 #Retrofit #RxJava2 
 ----------
