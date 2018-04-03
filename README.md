@@ -38,14 +38,13 @@ C'est exactement ce que nous avons fait afin d'explorer le design pattern  [MPV]
 Nous avons donc réalisé un exemple pratique d'une application "Clean Architecture" que nous partageons ici.`
   
 > Ceci n'est pas un starter kit de développement.  
-  
-
+---------- 
 # Table des matières
 
   * [Pourquoi cette application](#h-Pourquoi-cette-application)
      * [Pourquoi le modèle MPV](#h-pourquoi-MVP)
-		* [Qu’est-ce que le principe de « Séparation des préoccupations »  ?]{#h-quoi-SOC}	 
-     * [Pourquoi avons-nous besoin de bien d’appliquer le principe de « Séparation des préoccupations » ? »  ?]{#h-pourquoi-SOC}	 
+		* [Qu'est-ce que le principe de « Séparation des préoccupations »  ?]{#h-quoi-SOC}	 
+     * [Pourquoi avons-nous besoin de bien appliquer le principe de « Séparation des préoccupations » ? »  ?]{#h-pourquoi-SOC}	 
 		* [Comment bien appliquer ce principe ?]{#h-comment-SOC}	 		
      * [Injection de dependance](#h-Injection-de-dependance)
      * [Qu est ce que l injection de dépendance](#Qu-est-ce que l injection de dépendance ?)
@@ -87,7 +86,7 @@ Configurer son projet pour la PIC
 ## Pourquoi le modèle MPV  <a name="h-pourquoi-MVP">
 Parce que l'on se préocupe de respecter le principe de Séparation des préoccupations
 
-### Qu’est-ce que le principe de « Séparation des préoccupations »  ? <a name="h-quoi-SOC">
+### Qu'est-ce que le principe de « Séparation des préoccupations »  ? <a name="h-quoi-SOC">
 
 « La séparation des préoccupations (separation of concerns) est un principe de conception visant à séparer un programme informatique en parties, afin que chacune d’entre elle isole un problème précis de la problématique générale.
 https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pr%C3%A9occupations
@@ -101,7 +100,7 @@ Les conceptions en couches dans les systèmes d’information constituent un aut
 L’application du principe de séparation des préoccupations simplifie le développement et la maintenance des programmes informatiques. Quand les préoccupations sont strictement séparées, les différentes parties du code peuvent être réutilisées, étendues ou modifiées indépendamment des autres. Cela permet ainsi d’intervenir sur une partie du code sans avoir de connaissance particulière sur l’ensemble des autres parties. »
 Définition Wikipédia
 
-### Pourquoi avons-nous besoin de bien d’appliquer le principe de « Séparation des préoccupations » ?  <a name="h-pourquoi-SOC">
+### Pourquoi avons-nous besoin de bien appliquer le principe de « Séparation des préoccupations » ?  <a name="h-pourquoi-SOC">
 
 Premièrement, nous devons affronter la complexité interne autant que de l’incertitude de l’environnement.
 Ce principe de séparation permet de rendre les différentes couches (données, contrôleur, vue) indépendantes.
