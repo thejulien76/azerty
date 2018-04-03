@@ -43,10 +43,10 @@ Nous avons donc réalisé un exemple pratique d'une application "Clean Architect
 
   * [Pourquoi cette application](#h-Pourquoi-cette-application)
      * [Pourquoi le modèle MPV](#h-pourquoi-MVP)
-		* [Qu'est-ce que le principe de « Séparation des préoccupations »  ?]{#h-quoi-SOC}	 
-     * [Pourquoi avons-nous besoin de bien appliquer le principe de « Séparation des préoccupations » ? »  ?]{#h-pourquoi-SOC}	 
-		* [Comment bien appliquer ce principe ?]{#h-comment-SOC}	 		
-     * [Injection de dependance](#h-Injection-de-dependance)
+		* <A href="#h-quoi-SOC">Qu'est-ce que le principe de « Séparation des préoccupations »  ?</A>	 
+		* <A href="#h-pourquoi-SOC">Pourquoi avons-nous besoin de bien appliquer le principe de « Séparation des préoccupations » ? »  ?</A>	 
+		* <A href="#h-comment-SOC">Comment bien appliquer ce principe ?</A>
+     * [Injection de dependance](#h-quoi_injection-de-dependance)
      * [Qu est ce que l injection de dépendance](#Qu-est-ce que l injection de dépendance ?)
   * [Installation](#installation)
      * [Contributeurs](#Contributeurs)
@@ -138,13 +138,13 @@ Le composant ne contient que du code JAVA (pas de développement spécifique And
 
 Avant de nous lancer directement dans l’application de ce modèle, qu’en est-il des nouveaux outils disponibles pour les développeurs Android ? Il existe maintenant de nombreuses bibliothèques Android qui leur facilitent la vie et permettent de dynamiser l’obtention d’architectures correctes partagées : c’est l’objet de cette étude.
 
-## Injection de dépendance
-### Qu'est-ce que l'injection de dépendance ?
+## Injection de dépendance 
+### Qu'est-ce que l'injection de dépendance ? <a name="h-quoi_injection-de-dependance">
 
 L'injection de dépendances est un mécanisme qui permet d'implémenter le principe de l'inversion de contrôle.
 Il consiste à créer dynamiquement (injecter) les dépendances entre les différents objets en s'appuyant sur une description (fichier de configuration ou métadonnées) ou de manière programmatique. Ainsi les dépendances entre composants logiciels ne sont plus exprimées dans le code de manière statique mais déterminées dynamiquement à l'exécution.
 
-### Pourquoi avons-nous besoin de l'injection de dépendance ?
+### Pourquoi avons-nous besoin de l'injection de dépendance ? <a name="h-pourquoi_injection-de-dependance">
 
 Si une classe java crée une instance d'une autre classe via l'opérateur new, alors elle ne peut pas être utilisée et testée indépendamment de cette classe → dépendance forte.
 
@@ -152,7 +152,7 @@ Il semble très difficile, voire impossible, d’effectuer des tests unitaires s
 
 L'avantage le plus important de fournir les dépendances de l'extérieur de la classe est qu'il augmente la possibilité de réutiliser celle-ci et de pouvoir la tester indépendamment des autres classes.
 
-### Comment faire de l’injection de dépendance ?
+### Comment faire de l’injection de dépendance ? <a name="h-comment_injection-de-dependance">
 
 C'est un des objets de cette application.
 
