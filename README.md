@@ -88,25 +88,25 @@ Parce que l'on se préocupe de respecter le principe de Séparation des préoccu
 
 ### Qu'est-ce que le principe de « Séparation des préoccupations »  ? <a name="h-quoi-SOC">
 
-« La séparation des préoccupations (separation of concerns) est un principe de conception visant à séparer un programme informatique en parties, afin que chacune d’entre elle isole un problème précis de la problématique générale.
+> « La séparation des préoccupations (separation of concerns) est un principe de conception visant à séparer un programme informatique en parties, afin que chacune d’entre elle isole un problème précis de la problématique générale.
 https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pr%C3%A9occupations
 Une préoccupation (concern) est un ensemble d’informations qui affecte le code d’un programme informatique. Le concept de préoccupation peut recouvrir des aspects informatiques très variés.
-
-Un programme qui intègre les principes de séparation des préoccupations est appelé un programme modulaire, car il sépare son code en différent modules. 
-La modularité, et donc la séparation des préoccupations, est obtenue en encapsulant des informations dans une section de code qui a une interface bien définie. 
-L’encapsulation du code dans des modules amène un masquage de l’information.
-Les conceptions en couches dans les systèmes d’information constituent un autre mode de réalisation de la séparation des préoccupations (par exemple, couche de présentation, couche logique métier, couche d’accès aux données, couche de persistance.)
-
-L’application du principe de séparation des préoccupations simplifie le développement et la maintenance des programmes informatiques. Quand les préoccupations sont strictement séparées, les différentes parties du code peuvent être réutilisées, étendues ou modifiées indépendamment des autres. Cela permet ainsi d’intervenir sur une partie du code sans avoir de connaissance particulière sur l’ensemble des autres parties. »
-Définition Wikipédia
+>
+> Un programme qui intègre les principes de séparation des préoccupations est appelé un programme modulaire, car il sépare son code en différent modules. 
+> La modularité, et donc la séparation des préoccupations, est obtenue en encapsulant des informations dans une section de code qui a une interface bien définie. 
+> L’encapsulation du code dans des modules amène un masquage de l’information.
+> Les conceptions en couches dans les systèmes d’information constituent un autre mode de réalisation de la séparation des préoccupations (par exemple, couche de présentation, couche logique métier, couche d’accès aux données, couche de persistance.)
+> 
+> L’application du principe de séparation des préoccupations simplifie le développement et la maintenance des programmes informatiques. Quand les préoccupations sont strictement séparées, les différentes parties du code peuvent être réutilisées, étendues ou modifiées indépendamment des autres. Cela permet ainsi d’intervenir sur une partie du code sans avoir de connaissance particulière sur l’ensemble des autres parties. »
+> Définition Wikipédia
 
 ### Pourquoi avons-nous besoin de bien appliquer le principe de « Séparation des préoccupations » ?  <a name="h-pourquoi-SOC">
 
-Premièrement, nous devons affronter la complexité interne autant que de l’incertitude de l’environnement.
-Ce principe de séparation permet de rendre les différentes couches (données, contrôleur, vue) indépendantes.
-
-Un des atouts principal de séparer les préoccupations est que le code spécifique à Android se trouve que dans la vue. 
-Le controleur est composé que de JAVA. Ce qui peut permettre par exemple l’intégration de développeur +/- expérimenté sur la technologie android à des projet Android.
+> Premièrement, nous devons affronter la complexité interne autant que de l’incertitude de l’environnement.
+> Ce principe de séparation permet de rendre les différentes couches (données, contrôleur, vue) indépendantes.
+> 
+> Un des atouts principal de séparer les préoccupations est que le code spécifique à Android se trouve que dans la vue. 
+> Le controleur est composé que de JAVA. Ce qui peut permettre par exemple l’intégration de développeur +/- expérimenté sur la technologie android à des projet Android.
 
 
 ### Comment bien appliquer ce principe ?  <a name="h-comment-SOC">
