@@ -25,12 +25,14 @@ Utilise Dagger2, RxJava2, Retrofit2, Room
     <td width=20% ><img src="./docs/images/Screenshot_05.png"></td>      
 </tr>  
 </TABLE>  
+
 Commencer par trouver le bon chemin pour se rendre à la gare, c'est la première étape pour prendre le train !
 Notre application (mvp)(mvp) by EMI GMAO vous permet d'obtenir le meilleur itinéraire en un clic !
 - La liste des gares et leurs positions GPS est obtenu via l'API OPEN DATA SNCF :
   https://data.sncf.com/explore/dataset/liste-des-gares/information/  
   https://data.sncf.com/explore/dataset/liste-des-gares/api
 - L'itinéraire est ensuite établi grace à l'API Google Maps
+
 
 L'une des meilleures façons d'expérimenter un framework et des librairies en Android est de créer une application qui les utilise. 
 C'est exactement ce que nous avons fait afin d'explorer le design pattern  [MPV](#https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) et les librairies appréciées par la communauté Android.  
